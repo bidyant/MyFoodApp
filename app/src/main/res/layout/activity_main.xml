@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#41000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="132dp"
+                    android:layout_marginTop="50dp"
+                    android:contentDescription="TODO"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/ic_food" />
+
+                <TextView
+                    android:id="@+id/front_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/aladin"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/front_name"
+                    android:textColor="#FFFFFF"
+                    android:textSize="60sp" />
+
+                <Button
+                    android:id="@+id/front_btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_gradient"
+                    android:padding="10dp"
+                    android:text="@string/front_log_btn_name"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="@color/bg_opacity"
+                    app:backgroundTintMode="src_over" />
+
+                <Button
+                    android:id="@+id/front_btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_gradient"
+                    android:padding="10dp"
+                    android:text="@string/front_sgn_btn_name"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="@color/bg_opacity"
+                    app:backgroundTintMode="src_over" />
+
+                <TextView
+                    android:id="@+id/skip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/skip"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyFoodApp</string>
+    <string name="front_name">Apna Dhaba</string>
+    <string name="front_log_btn_name">Log in</string>
+    <string name="front_sgn_btn_name">Register</string>
+    <string name="skip">Skip</string>
+    <string name="powerd">Powerd By Bidyant_pvt.ltd</string>
+    <string name="up_img">Upload Image</string>
+    <string name="or">Or Registr with</string>
+    <string name="lg_with">Or Login with</string>
+    <string name="reg_fb">Facebook</string>
+    <string name="reg_gl">Google</string>
+    <string name="already_acc">Already Have an account ? Login Here</string>
+    <string name="no_acc">If you do not have an account. Register Here</string>
+    <string name="name">User Name</string>
+    <string name="emal">Email Address</string>
+    <string name="phone">Phone Number</string>
+    <string name="password">Password</string>
+
+    <string name="food_name">Rice</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text"></string>
+
+</resources>
